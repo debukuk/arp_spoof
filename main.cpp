@@ -24,7 +24,6 @@ struct allpacket {
     u_int8_t eth_dmac[6];
     u_int8_t eth_smac[6];
     u_short type;
-
     u_short hd_type;
     u_short protocol_type;
     u_char hd_size;
